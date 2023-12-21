@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+}
+#logo-tagline
+{
+    color: aliceblue;
+    height: 123px;
+    border-bottom: 3px solid rgba(188, 127, 13, 0.962);
+    font-family: 'Montserrat', sans-serif;
+    overflow: hidden;
+
+}
+body
+{
+    background-color: black;
+    text-align: center;
+}
+#tagline
+{
+    color: rgb(201, 199, 199);
+}
+h1{
+    text-transform: uppercase;
+}
+#gallery{
+    display: flex;
+    flex-direction: row;
+    max-width: 1400px;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    padding: 23px;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+
+}
+#gallery img
+{
+width: 100%;
+max-width: 350px;
+height: 233px;
+object-fit: cover;
+border-radius: 23px;
+}
+
